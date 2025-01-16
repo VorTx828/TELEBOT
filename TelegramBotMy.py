@@ -7,6 +7,7 @@ subscribed_users = set()
 
 def Notifications():
     while True:
+        print("Insert symbolls to send photo")
         input()
         photo_path = 'C:\\Users\\Viacheslav\\Pictures\\1.png'  # Замените на путь к вашему изображению
         with open(photo_path, 'rb') as photo:
